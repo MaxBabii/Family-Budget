@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #ccceff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.maksym.familybudget.Result">
+    <children>
+        <AnchorPane layoutX="-5.0" layoutY="-3.0" prefHeight="44.0" prefWidth="156.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label layoutX="29.0" layoutY="9.0" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: #fafafa;" text="MaksymBabii">
+                    <font>
+                        <Font name="Apple Color Emoji" size="16.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+      <TableView fx:id="table" layoutX="3.0" layoutY="67.0" prefHeight="67.0" prefWidth="594.0">
+        <columns>
+          <TableColumn fx:id="tableEat" prefWidth="117.06790864467621" text="Харчування" />
+          <TableColumn fx:id="tableHygiene" prefWidth="89.0905532836914" text="Гігієна" />
+            <TableColumn fx:id="tableStudy" prefWidth="74.01190185546875" text="Навчання" />
+            <TableColumn fx:id="tableFuel" prefWidth="92.27053833007812" text="Бензин" />
+            <TableColumn fx:id="tableSafetyPillow" prefWidth="128.42788696289062" text="Фінансова подушка" />
+        </columns>
+      </TableView>
+    </children>
+</AnchorPane>
